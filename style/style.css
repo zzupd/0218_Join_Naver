@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {    text-decoration: none;    }
+a:link     {    color: #333;    }
+a:visited  {    color: #333;    }
+a:hover    {    color: #333;    }
+a:active   {    color: #333;    }
+
+ul         {    list-style: none;    }
+/* Reset 끝 */
+
+
+/* div#wrap 시작 */
+div#wrap {
+    width: 500px;
+    margin: 0 auto;
+}
+/* div#wrap 끝 */
+
+/* 정보입력 div 크기 지정 시작 */
+div#memID>span {
+    width: 460px;
+    padding: 16px 10px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+/* 정보입력 div 크기 지정 끝 */
+
+
+/* 제목 시작 */
+div#wrap>h2#companyLogo {
+    color: #00c850;
+    text-align: center;
+}
+/* 제목 끝 */
+
+/* 아이디 입력 시작 */
+#wrap span.inputArea::after {
+    content: "@naver.com";
+    color: #b9bfc6;
+
+}
+#wrap div#memID input {
+    width: 77%;
+    border: none;
+    outline: none;
+}
+/* 아이디 입력 끝 */
+
+
+
+
+
+
